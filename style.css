@@ -1,0 +1,139 @@
+ol{
+    list-style: decimal;
+}
+ul{
+    list-style-type: square;
+}
+.form{
+    border: 5px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(111, 114, 117);
+    width: 200px;
+    height: 350px;
+}
+form{
+    text-align: center;
+
+}
+button{
+    text-align: left;
+}
+h6{
+text-align: center;
+}
+.box1{
+    background-color: aqua;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ transition-duration: 2s;
+ transition-property: all;
+ transition-delay: 1s;
+ transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+ transform-style: preserve-3d;
+    
+}
+.box1:hover{
+transform:rotate(-25deg);
+}
+.box2{
+    background-color: rgb(0, 255, 76);
+    height: 200px;
+    width: 250px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    animation-name: expose;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+}
+@keyframes expose{
+    50%{
+   background-color: blue;
+   border-radius: 25%;
+    }
+    75%{
+        background-color: darkgoldenrod;
+        border-radius: 45%;
+    }
+    100%{
+        background-color: blueviolet;
+        border-radius: 34%;
+    }
+}
+.box3{
+    height: 200px;
+    width: 250px;
+   background-color: rgb(54, 54, 107);
+   color: #412424; 
+}
+.box4{
+    height: 200px;
+    width: 250px;
+    background: linear-gradient(rgb(119, 63, 63),rgb(96, 170, 96));
+}
+.box5{
+    height: 200px;
+    width: 250px;
+    background:radial-gradient(rgb(63, 63, 161),rgb(133, 93, 170))
+}
+
+.navbar{
+    box-sizing: border-box;
+    background-color: #ddc9c9;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.navbar ul li{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+   line-height:left;
+}
+
+.navbar > .box li{
+    display: block;
+}
+footer{
+    height: 250px;
+    width: 95%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: darkorange;
+    margin-bottom: 30px;
+}
+ footer p{
+    color: #583b3b;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 70px;
+
+}
+.icon{
+    color: darkmagenta;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+
+
+
